@@ -1,0 +1,6 @@
+[30-Sep-2016 08:37:49 America/Chicago] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'soundche_sean'@'localhost' to database 'SampleData' in /home/soundcheck/public_html/php/phpTest.php on line 105
+[30-Sep-2016 08:59:26 America/Chicago] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting ',' or ';' in /home/soundcheck/public_html/php/phpTest.php on line 118
+[30-Sep-2016 08:59:30 America/Chicago] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting ',' or ';' in /home/soundcheck/public_html/php/phpTest.php on line 118
+[30-Sep-2016 08:59:41 America/Chicago] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting ',' or ';' in /home/soundcheck/public_html/php/phpTest.php on line 118
+[30-Sep-2016 12:57:32 America/Chicago] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home/soundcheck/public_html/php/phpTest.php on line 126
+[05-Oct-2016 12:32:32 America/Chicago] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home/soundcheck/public_html/php/phpTest.php on line 109

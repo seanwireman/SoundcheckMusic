@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "StudentResources"
+AuthUserFile "/home/soundcheck/.htpasswds/public_html/studentresources/passwd"
+require valid-user
+ErrorDocument 401 /error401.html
