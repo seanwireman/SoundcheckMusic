@@ -1,6 +1,0 @@
-[18-May-2017 17:16:40 Etc/UTC] PHP Warning:  require(assets/PHPMailer-master/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/soundcheck/public_html/dev/sendemail.php on line 8
-[18-May-2017 17:16:40 Etc/UTC] PHP Warning:  require(assets/PHPMailer-master/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/soundcheck/public_html/dev/sendemail.php on line 8
-[18-May-2017 17:16:40 Etc/UTC] PHP Fatal error:  require(): Failed opening required 'assets/PHPMailer-master/PHPMailerAutoload.php' (include_path='.:/opt/php54/lib/php') in /home/soundcheck/public_html/dev/sendemail.php on line 8
-[18-May-2017 17:34:14 Etc/UTC] PHP Warning:  require(assets/PHPMailer-master/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/soundcheck/public_html/dev/sendemail.php on line 8
-[18-May-2017 17:34:14 Etc/UTC] PHP Warning:  require(assets/PHPMailer-master/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/soundcheck/public_html/dev/sendemail.php on line 8
-[18-May-2017 17:34:14 Etc/UTC] PHP Fatal error:  require(): Failed opening required 'assets/PHPMailer-master/PHPMailerAutoload.php' (include_path='.:/opt/php54/lib/php') in /home/soundcheck/public_html/dev/sendemail.php on line 8
