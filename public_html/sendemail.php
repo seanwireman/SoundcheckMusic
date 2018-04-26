@@ -1,4 +1,6 @@
 <?php
+
+require 'email-config.php';
 /**
  * This example shows making an SMTP connection with authentication.
  */
@@ -18,23 +20,25 @@ $mail->SMTPDebug = 0;
 //Ask for HTML-friendly debug output
 $mail->Debugoutput = 'html';
 //Set the hostname of the mail server
-$mail->Host = "smtp.gmail.com";
+$mail->Host = $host;
 //Set the SMTP port number - likely to be 25, 465 or 587
-$mail->Port = 587;
+$mail->Port = $port;
 //Whether to use SMTP authentication
 $mail->SMTPAuth = true;
 //Username to use for SMTP authentication
-$mail->Username = "soundcheckmusicco@gmail.com";
+$mail->Username = $email;
 //Password to use for SMTP authentication
-$mail->Password = "uQQtBN5Ra@Hs%2ZgCPwX";
+$mail->Password = $pass;
 //Set who the message is to be sent from
-$mail->setFrom('soundcheckmusicco@gmail.com', 'Soundcheck Music');
+$mail->setFrom($email, $from);
 //Set an alternative reply-to address
-$mail->addReplyTo('soundcheckmusicco@gmail.com', 'Sean Wireman');
+//$mail->addReplyTo('prdiard@gmail.com', 'Sean Wireman');
 //Set who the message is to be sent to
-$mail->addAddress('seanwireman@gmail.com', 'Sean Wireman');
+foreach ($to as $toEmail)
+	$mail->addAddress($toEmail, '');
+	
 //Set the subject line
-$mail->Subject = "soundcheckmusic.net: " . $_GET["subject"];
+$mail->Subject = "subject: " . $_GET["subject"];
 //Read an HTML message body from an external file, convert referenced images to embedded,
 //convert HTML into a basic plain-text alternative body
 /*$mail->msgHTML(file_get_contents('contents.html'), dirname(__FILE__));*/
